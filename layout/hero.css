@@ -46,6 +46,11 @@
   width:100%;
   right: 0;
 }
+.hero__text h1 img{
+  width: 10rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
 .hero__text__button button {
   border-radius: var(--border-radius-xs);
   font-size: 1.5rem;
