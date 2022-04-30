@@ -1,0 +1,44 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+
+#offer {
+  max-height: 30%;
+  margin-top: 10rem;
+}
+.offer h2 {
+  text-align: center;
+}
+.offer__main {
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+.offer__box {
+  background-color: #fff;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-left: 3px solid red;
+  border-radius: var(--border-radius-s);
+  box-shadow: 0 4px 11px 2px #cccccc94;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.offer__box:hover{
+    transform: translateX(1rem);
+}
+.offer__box:nth-child(1) {
+  border-left-color: #f27c5b;
+}
+.offer__box:nth-child(2) {
+  border-left-color: #514bd9;
+}
+.offer__box:nth-child(3) {
+  border-left-color: #3db647;
+}
+.offer__box p {
+  margin: 0.5rem 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+}

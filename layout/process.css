@@ -1,0 +1,58 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+
+#process {
+  min-height: 30%;
+}
+.process{
+    align-items: baseline;
+}
+.process:last-child{
+    margin-right: 0;
+}
+.process__box__one p {
+  font-weight: 400;
+  line-height: 2rem;
+}
+.box {
+  text-align: center;
+  background-color:#f1f0ff;
+  margin: 0 1rem;
+  padding: 2.5rem 1rem;
+  border-radius: var(--border-radius-xs);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.box:hover{
+    background-color: #f1f0ff;
+    box-shadow: 0 0 2rem 0.5rem #12111130;
+}
+.box span{
+    font-weight: 500;
+}
+.box p{
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+.box__icon {
+  margin: 2rem 0;
+}
+.box__icon i {
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: var(--light-color);
+  border-radius: var(--border-radius-xs);
+}
+.ri-line-chart-line {
+  background-color: #f8bb4a;
+}
+.ri-shield-star-line {
+  background-color: #534edc;
+}
+.ri-check-fill {
+  background-color: #f1614a;
+}

@@ -1,0 +1,52 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+
+#development {
+  background-color: #fef4ef;
+  height: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+.developmant{
+    gap: 3rem;
+    align-items: center;
+}
+.development__text {
+  width: 50%;
+  background-color: #fff;
+  padding: 4rem;
+  margin-top: -6rem;
+}
+.development__text span {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.development__text p {
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.development__icon {
+  margin-top: 6rem;
+}
+.development__icon i {
+  display: inline-block;
+  background-color: blue;
+  color: var(--light-color);
+  padding: 1rem;
+  border-radius: var(--border-radius-xs);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.development__icon p{
+    margin-top: 1rem;
+}
+.development__icon .ri-compasses-2-line {
+  background-color: #4c46c6;
+}
+.development__icon .ri-reactjs-line {
+  background-color: #f56e3d;
+}

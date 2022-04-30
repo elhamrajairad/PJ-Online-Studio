@@ -1,0 +1,28 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+#signup{
+  z-index: 1;
+}
+.signup {
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  max-width: 85rem;
+  padding: 4rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  box-shadow: 0 0 0.5rem 0.5rem #e7e7e7;
+  border-radius: var(--border-radius-xs);
+  background-color: #fff;
+  position: relative;
+}
+.signup__text p{
+    margin: 2rem 0;
+}
+.signup__text button{
+    border-radius: var(--border-radius-xs);
+    font-size: 1.3rem;
+}
+

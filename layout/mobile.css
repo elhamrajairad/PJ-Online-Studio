@@ -1,0 +1,55 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+#mobile {
+  background-color: #f1f0ff;
+  height: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+.mobile {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.mobile__img{
+    margin-top: -6rem;
+}
+.mobile__img img {
+  max-width: 25rem;
+}
+.mobile__feature {
+  width: 50%;
+  background-color: #fff;
+  padding: 4rem;
+  margin-top: -6rem;
+  max-height: 45rem;
+}
+.mobile__feature__icons{
+  margin-top: 6rem;
+}
+.mobile__feature span {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.mobile__feature p {
+  font-weight: 400;
+}
+.feature__icon i {
+  display: inline-block;
+  background-color: blue;
+  color: var(--light-color);
+  padding: 1rem;
+  border-radius: var(--border-radius-xs);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.feature__icon .ri-compasses-2-line {
+  background-color: #36b43c;
+}
+.feature__icon .ri-apps-line {
+  background-color: #5ed4d5;
+}

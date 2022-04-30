@@ -1,0 +1,50 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+
+#hero {
+  min-height: 40%;
+}
+.hero {
+  justify-content: space-between;
+}
+.flex-direction-row h1 {
+  font-size: 7.9rem;
+  font-weight: 700;
+  line-height: 8rem;
+  color: var(--dark-color);
+  margin-bottom: 2rem;
+}
+.flex-direction-row p {
+  color: var(--gray-color);
+  font-weight: 500;
+}
+.hero__text > p{
+  margin-bottom: 2rem;
+}
+.hero__text__button {
+  gap: 3rem;
+  align-items: baseline;
+  justify-content: start;
+}
+.hero__text__button button {
+  border-radius: var(--border-radius-xs);
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+.hero__text__button button:hover {
+  background-color: var(--light-color);
+  color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem var(--primary-color) inset;
+  transition: var(--transition);
+}
+.hero__text__button button i {
+  vertical-align: middle;
+  font-weight: 500;
+}
+.hero__image img{
+    width: 100%;
+    transform: scale(1.5);
+}
+

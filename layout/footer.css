@@ -1,0 +1,81 @@
+@import "./reset.css";
+@import "./colors.css";
+@import "./buttons.css";
+@import "./utility.css";
+#footer {
+  background-color: #fef4ef;
+  max-height: 30%;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+  margin-top: -24rem;
+}
+.footer {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__logo {
+  max-width: 30rem;
+}
+.footer__logo p {
+  margin: 1rem 0;
+}
+.footer__logo__social {
+  justify-content: flex-start;
+}
+.footer__logo__social i {
+  padding: 0.7rem;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #cd7d1b;
+  box-shadow: 0 0 0 2px #cd7d1b inset;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+.footer__logo__social i:hover {
+  box-shadow: 0 0 0 4px #cd7d1b inset;
+}
+.footer__heading {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.footer__links {
+  color: var(--dark-color);
+  line-height: 3rem;
+}
+.footer__links a {
+  transition: var(--transition);
+}
+.footer__links a:hover {
+  color: var(--primary-color);
+}
+.footer__newsletter form {
+  border: 1px solid var(--dark-color);
+  padding: 0.6rem;
+  margin: 1rem 0;
+  border-radius: var(--border-radius-xs);
+}
+.footer__newsletter form input {
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+}
+.footer__newsletter form button {
+  padding: 0.6rem 0.8rem;
+  font-size: 1.4rem;
+  color: var(--light-color);
+  background-color: var(--primary-color);
+  outline: 0;
+  border-radius: var(--border-radius-xs);
+  transition: var(--transition);
+  border: 0;
+}
+.footer__newsletter form button:hover {
+  color: var(--primary-color);
+  background-color: transparent;
+  box-shadow: 0 0 0 0.2rem var(--primary-color) inset;
+}
+.footer__newsletter small{
+    color: var(--gray-color);
+}

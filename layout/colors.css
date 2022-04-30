@@ -1,0 +1,17 @@
+:root {
+  --white: #fcfcfc;
+  --primary-color: #7d45f5;
+  --light-color: #fffafa;
+  --dark-color: #2d2c33;
+  --gray-color: #7a7a7a;
+
+  /* border-radius */
+  --border-radius-xs: 0.5rem;
+  --border-radius-s: 1rem;
+  --border-radius-m: 1.5rem;
+  --border-radius-lg: 2rem;
+  --border-radius-xlg: 2.5rem;
+
+  /* transition */
+  --transition: all 0.5s;
+}
