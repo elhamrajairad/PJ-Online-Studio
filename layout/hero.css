@@ -5,6 +5,7 @@
 
 #hero {
   min-height: 40%;
+  margin-top: 10rem;
 }
 .hero {
   justify-content: space-between;
@@ -20,13 +21,30 @@
   color: var(--gray-color);
   font-weight: 500;
 }
-.hero__text > p{
+.hero__text > p {
   margin-bottom: 2rem;
 }
 .hero__text__button {
   gap: 3rem;
   align-items: baseline;
   justify-content: start;
+}
+.hero__text__button p {
+  position: relative;
+}
+#underline {
+  position: absolute;
+  content: "";
+  width: 20%;
+  top: 51%;
+  right: 100%;
+  border: 1px solid var(--gray-color);
+  opacity: 0.6;
+  transition: var(--transition);
+}
+.hero__text__button:hover #underline{
+  width:100%;
+  right: 0;
 }
 .hero__text__button button {
   border-radius: var(--border-radius-xs);
@@ -43,8 +61,7 @@
   vertical-align: middle;
   font-weight: 500;
 }
-.hero__image img{
-    width: 100%;
-    transform: scale(1.5);
+.hero__image img {
+  width: 100%;
+  transform: scale(1.5);
 }
-
