@@ -24,11 +24,11 @@
   width: 50%;
   background-color: #fff;
   padding: 4rem;
-  margin-top: -6rem;
+  margin-top: -4rem;
   max-height: 45rem;
 }
 .mobile__feature__icons{
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 .mobile__feature span {
   display: block;

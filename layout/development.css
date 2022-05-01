@@ -18,7 +18,7 @@
   width: 50%;
   background-color: #fff;
   padding: 4rem;
-  margin-top: -6rem;
+  margin-top: -4rem;
 }
 .development__text span {
   display: block;
@@ -31,7 +31,7 @@
   margin-top: 2rem;
 }
 .development__icon {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 .development__icon i {
   display: inline-block;
