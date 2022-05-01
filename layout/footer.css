@@ -46,6 +46,7 @@
 }
 .footer__links a {
   transition: var(--transition);
+    color: var(--dark-color);
 }
 .footer__links a:hover {
   color: var(--primary-color);
